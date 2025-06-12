@@ -15,7 +15,7 @@ fork本项目，先去开启github action,然后编辑RunLinuxCommand.java，找
 
 找到/com/example/demo/RunLinuxCommand.java，更改57\58行为你想要执行的命令，这里基本不用转义，不过有一种情况特殊，那就是\要换成\\\\，全局替换就好(仅限start.sh脚本内容)。
 
-打包编译，回到和main.jar同级目录下，输入如下命令
+打包编译，回到和MANIFEST.MF同级目录下，输入如下命令
 
 ### 生成class
 
